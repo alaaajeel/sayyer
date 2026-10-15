@@ -4,7 +4,8 @@
  * - Map tiles, map styles and fonts are cached as you browse, so areas you've seen still draw offline.
  * - Routing and search always go to the network: stale routes or results would be wrong.
  */
-const VERSION = 'sayyer-v1';
+// Bump on each release so old caches are dropped when the new worker activates.
+const VERSION = 'sayyer-v2-beta';
 const SHELL = `${VERSION}-shell`;
 const TILES = `${VERSION}-tiles`;
 const MAX_TILES = 600;
