@@ -5,7 +5,7 @@
  * - Routing and search always go to the network: stale routes or results would be wrong.
  */
 // Bump on each release so old caches are dropped when the new worker activates.
-const VERSION = 'sayyer-v5-beta';
+const VERSION = 'sayyer-v6-beta';
 const SHELL = `${VERSION}-shell`;
 const TILES = `${VERSION}-tiles`;
 const MAX_TILES = 600;
