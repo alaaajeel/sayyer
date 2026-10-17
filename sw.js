@@ -5,7 +5,7 @@
  * - Routing and search always go to the network: stale routes or results would be wrong.
  */
 // Bump on each release so old caches are dropped when the new worker activates.
-const VERSION = 'sayyer-v4-beta';
+const VERSION = 'sayyer-v5-beta';
 const SHELL = `${VERSION}-shell`;
 const TILES = `${VERSION}-tiles`;
 const MAX_TILES = 600;
@@ -60,6 +60,8 @@ const OFFLINE_ASSETS = [
   "./offline/fonts/Noto Sans Regular/8448-8703.pbf",
   "./offline/fonts/Noto Sans Regular/8704-8959.pbf",
   "./offline/fonts/Noto Sans Regular/9472-9727.pbf",
+  "./data/road-safety-iraq.json",
+  "./data/iraq-governorates.json",
   "./offline/sprites/ofm.json",
   "./offline/sprites/ofm.png",
   "./offline/sprites/ofm@2x.json",
