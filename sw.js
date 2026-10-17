@@ -5,13 +5,17 @@
  * - Routing and search always go to the network: stale routes or results would be wrong.
  */
 // Bump on each release so old caches are dropped when the new worker activates.
-const VERSION = 'sayyer-v9-beta';
+const VERSION = 'sayyer-v10-beta';
 const SHELL = `${VERSION}-shell`;
 const TILES = `${VERSION}-tiles`;
 const MAX_TILES = 600;
 
 /** Fonts, icons and base style for the downloaded offline map (bundled with the app, ~4.6 MB). */
 const OFFLINE_ASSETS = [
+  "./icons/pucks/arrow.png",
+  "./icons/pucks/private-car.png",
+  "./icons/pucks/taxi.png",
+  "./icons/pucks/motorbike.png",
   "./offline/fonts/Noto Sans Bold/0-255.pbf",
   "./offline/fonts/Noto Sans Bold/1024-1279.pbf",
   "./offline/fonts/Noto Sans Bold/1536-1791.pbf",
@@ -76,6 +80,15 @@ self.addEventListener('install', (event) => {
     caches
       .open(SHELL)
       .then((c) => c.addAll(['./', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', ...OFFLINE_ASSETS.map(encodeURI)]))
+      .then(async () => {
+        // Initial scripts load before this worker controls the page. Cache them explicitly,
+        // including the map worker, so the very first offline restart can load the app.
+        const response = await fetch('./assets-manifest.json', { cache: 'reload' });
+        if (!response.ok) throw new Error('App asset manifest unavailable');
+        const assets = await response.json();
+        const cache = await caches.open(SHELL);
+        await cache.addAll(assets);
+      })
       .then(async () => {
         const cache = await caches.open(SHELL);
         const url = './voice/arafat/manifest.json';
