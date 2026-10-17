@@ -5,7 +5,7 @@
  * - Routing and search always go to the network: stale routes or results would be wrong.
  */
 // Bump on each release so old caches are dropped when the new worker activates.
-const VERSION = 'sayyer-v6-beta';
+const VERSION = 'sayyer-v7-beta';
 const SHELL = `${VERSION}-shell`;
 const TILES = `${VERSION}-tiles`;
 const MAX_TILES = 600;
@@ -113,6 +113,9 @@ self.addEventListener('fetch', (event) => {
     );
     return;
   }
+
+  // Governorate map packs (same github.io origin, other repo): stored by the app itself, never here.
+  if (url.pathname.includes('/sayyer-maps/')) return;
 
   // Own files: built assets have hashed names, so cache-first is always correct.
   if (url.origin === self.location.origin) {
