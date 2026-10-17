@@ -5,7 +5,7 @@
  * - Routing and search always go to the network: stale routes or results would be wrong.
  */
 // Bump on each release so old caches are dropped when the new worker activates.
-const VERSION = 'sayyer-v8-beta';
+const VERSION = 'sayyer-v9-beta';
 const SHELL = `${VERSION}-shell`;
 const TILES = `${VERSION}-tiles`;
 const MAX_TILES = 600;
@@ -76,6 +76,16 @@ self.addEventListener('install', (event) => {
     caches
       .open(SHELL)
       .then((c) => c.addAll(['./', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', ...OFFLINE_ASSETS.map(encodeURI)]))
+      .then(async () => {
+        const cache = await caches.open(SHELL);
+        const url = './voice/arafat/manifest.json';
+        const response = await fetch(url, { cache: 'reload' });
+        if (!response.ok) throw new Error('Voice manifest unavailable');
+        const manifest = await response.clone().json();
+        if (manifest.v !== 2 || !Object.keys(manifest.clips || {}).length) throw new Error('Invalid voice manifest');
+        await cache.addAll([...new Set(Object.values(manifest.clips).map(c => './voice/arafat/' + c.file))]);
+        await cache.put(url, response);
+      })
       .then(() => self.skipWaiting())
   );
 });
