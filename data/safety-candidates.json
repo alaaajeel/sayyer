@@ -1,0 +1,68 @@
+{
+ "v": 1,
+ "built": "2026-10-18",
+ "about": "Road-safety items announced in Iraqi news and located on OpenStreetMap by name. Not verified on the ground: the admin panel adds them as «يحتاج تحقق» only. Items whose place could not be determined exactly are listed in «unplaced» and never added automatically.",
+ "items": [
+  {
+   "id": "news_hama_cam",
+   "type": "red_light_camera",
+   "name": "تقاطع حماة — كاميرا مخالفات ذكية",
+   "lat": 33.3343015,
+   "lng": 44.4487745,
+   "location": "OSM junction «تقاطع حماة» (node, junction=yes)",
+   "precision": "exact",
+   "source": "السومرية نيوز 2024-03-15: الكاميرات الذكية في 5 تقاطعات بالرصافة؛ بدء احتساب المخالفات 2025-07-01",
+   "url": "https://www.alsumaria.tv/news/localnews/484140/"
+  },
+  {
+   "id": "news_ajras_signal",
+   "type": "traffic_signal",
+   "name": "تقاطع الأجراس — إشارة ذكية",
+   "lat": 33.32795,
+   "lng": 44.48972,
+   "location": "OSM junction «تقاطع الأجراس» (junction=yes)",
+   "precision": "exact",
+   "source": "السومرية نيوز 2026-03-07: التشغيل التجريبي للإشارات الذكية في 20 تقاطعاً",
+   "url": "https://www.alsumaria.tv/news/localnews/558176/"
+  },
+  {
+   "id": "news_banks_signal",
+   "type": "traffic_signal",
+   "name": "تقاطع البنوك (حي أور) — إشارة ذكية",
+   "lat": 33.39631,
+   "lng": 44.41277,
+   "location": "OSM road «تقاطع البنوك» (primary_link)",
+   "precision": "exact",
+   "source": "السومرية نيوز 2026-03-07: التشغيل التجريبي للإشارات الذكية في 20 تقاطعاً",
+   "url": "https://www.alsumaria.tv/news/localnews/558176/"
+  },
+  {
+   "id": "news_safara_signal",
+   "type": "traffic_signal",
+   "name": "تقاطع السفارة — إشارة ذكية",
+   "lat": 33.40237,
+   "lng": 44.45633,
+   "location": "OSM area named «تقاطع السفارة» (centre — check the exact junction)",
+   "precision": "approximate",
+   "source": "السومرية نيوز 2026-03-07: التشغيل التجريبي للإشارات الذكية في 20 تقاطعاً",
+   "url": "https://www.alsumaria.tv/news/localnews/558176/"
+  },
+  {
+   "id": "news_kayara_signal",
+   "type": "traffic_signal",
+   "name": "تقاطع الكيارة (أم الكبر) — إشارة ذكية",
+   "lat": 33.39854,
+   "lng": 44.43497,
+   "location": "OSM point named «تقاطع الكيارة» (check the exact junction)",
+   "precision": "approximate",
+   "source": "السومرية نيوز 2026-03-07: التشغيل التجريبي للإشارات الذكية في 20 تقاطعاً",
+   "url": "https://www.alsumaria.tv/news/localnews/558176/"
+  }
+ ],
+ "unplaced": [
+  "كاميرات: تقاطع المثنى (ملعب الشعب)، تقاطع شارع الربيعي، تقاطع زيونة، تقاطع شارع فلسطين (مول النخيل)",
+  "رادارات سرعة: سريع محمد القاسم، سريع الدورة باتجاه اليوسفية، مدخل طريق اليوسفية من سيطرة 75 — مواقعها على الطريق غير منشورة",
+  "إشارات ذكية: السينما البيضاء، الكهرباء (البلديات)، جسر المشتل الأول (الدرويش)، جسر المشتل الثاني (فلافل لبنان)، كسرة وعطش الثاني، تقاطع 55، العورة، مرور البلديات، الأسواق المركزية (الشعب)، الشركة (المحكمة)، عدن (الشعب)، فلكة 83، الفلاح الثالث، مجسر الشعب الأول (صليخ)، النفط",
+  "ساحة الواثق: فيها إشارات مرورية مسجلة أصلاً في OSM"
+ ]
+}
