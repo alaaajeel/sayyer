@@ -1,0 +1,1392 @@
+{
+ "v": 2,
+ "voice": "Maryam Essa",
+ "voiceId": "w0uhBAmNIG5kUDeaFEsA",
+ "model": "eleven_v4",
+ "settings": {
+  "stability": 0.5,
+  "similarity_boost": 0.75
+ },
+ "clips": {
+  "assistant.enabled": {
+   "file": "assistant/enabled.mp3",
+   "spoken": "هلا بيك، سَيّر وياك.",
+   "source": "generate"
+  },
+  "assistant.disabled": {
+   "file": "assistant/disabled.mp3",
+   "spoken": "تم إيقاف المساعد الصوتي.",
+   "source": "generate"
+  },
+  "assistant.ready": {
+   "file": "assistant/ready.mp3",
+   "spoken": "آني وياك، تفضل.",
+   "source": "generate"
+  },
+  "assistant.listening": {
+   "file": "assistant/listening.mp3",
+   "spoken": "نعم؟",
+   "source": "generate"
+  },
+  "assistant.not_understood": {
+   "file": "assistant/not_understood.mp3",
+   "spoken": "ما فهمت عليك، ممكن تعيد؟",
+   "source": "generate"
+  },
+  "assistant.try_again": {
+   "file": "assistant/try_again.mp3",
+   "spoken": "ممكن تعيد طلبك بطريقة ثانية؟",
+   "source": "generate"
+  },
+  "assistant.one_moment": {
+   "file": "assistant/one_moment.mp3",
+   "spoken": "لحظة، جاي أتأكد.",
+   "source": "generate"
+  },
+  "assistant.done": {
+   "file": "assistant/done.mp3",
+   "spoken": "صار.",
+   "source": "generate"
+  },
+  "assistant.ok": {
+   "file": "assistant/ok.mp3",
+   "spoken": "تم.",
+   "source": "generate"
+  },
+  "assistant.cancelled": {
+   "file": "assistant/cancelled.mp3",
+   "spoken": "تمام، ألغيت الطلب.",
+   "source": "generate"
+  },
+  "assistant.unsupported": {
+   "file": "assistant/unsupported.mp3",
+   "spoken": "هالطلب مو متوفر حالياً.",
+   "source": "generate"
+  },
+  "assistant.permission_required": {
+   "file": "assistant/permission_required.mp3",
+   "spoken": "حتى أسمعك، فعّل صلاحية الميكروفون.",
+   "source": "generate"
+  },
+  "assistant.say_wake": {
+   "file": "assistant/say_wake.mp3",
+   "spoken": "ما فهمت. كول: يا سَيّر، وبعدها طلبك.",
+   "source": "generate"
+  },
+  "assistant.hands_free_on": {
+   "file": "assistant/hands_free_on.mp3",
+   "spoken": "أسمعك. كول: يا سَيّر، وبعدها طلبك.",
+   "source": "generate"
+  },
+  "assistant.need_location": {
+   "file": "assistant/need_location.mp3",
+   "spoken": "فعّل الموقع أول.",
+   "source": "generate"
+  },
+  "assistant.share_pick": {
+   "file": "assistant/share_pick.mp3",
+   "spoken": "اختار واتساب أو أي تطبيق حتى ترسل موقعك.",
+   "source": "generate"
+  },
+  "search.start": {
+   "file": "search/start.mp3",
+   "spoken": "جاي أبحث عن المكان.",
+   "source": "generate"
+  },
+  "search.found_one": {
+   "file": "search/found_one.mp3",
+   "spoken": "لكيت المكان.",
+   "source": "generate"
+  },
+  "search.found_multiple": {
+   "file": "search/found_multiple.mp3",
+   "spoken": "لكيت أكثر من نتيجة، أي وحدة تقصد؟",
+   "source": "generate"
+  },
+  "search.found_two": {
+   "file": "search/found_two.mp3",
+   "spoken": "لكيتلك مكانين، أي واحد تختار؟",
+   "source": "generate"
+  },
+  "search.found_three": {
+   "file": "search/found_three.mp3",
+   "spoken": "لكيتلك ثلاثة أماكن، أي واحد تختار؟",
+   "source": "generate"
+  },
+  "search.results_ready": {
+   "file": "search/results_ready.mp3",
+   "spoken": "هاي النتائج، اختار المكان اللي تريده.",
+   "source": "generate"
+  },
+  "search.no_results": {
+   "file": "search/no_results.mp3",
+   "spoken": "ما لكيت نتائج.",
+   "source": "generate"
+  },
+  "search.ambiguous": {
+   "file": "search/ambiguous.mp3",
+   "spoken": "أكو أكثر من مكان بنفس الاسم، أي واحد تقصد؟",
+   "source": "generate"
+  },
+  "search.selected": {
+   "file": "search/selected.mp3",
+   "spoken": "تمام، تم اختيار المكان.",
+   "source": "generate"
+  },
+  "search.finding_nearby": {
+   "file": "search/finding_nearby.mp3",
+   "spoken": "جاي أدورلك على الأماكن القريبة.",
+   "source": "generate"
+  },
+  "search.finding_on_route": {
+   "file": "search/finding_on_route.mp3",
+   "spoken": "جاي أبحث عن الأماكن اللي بطريقك.",
+   "source": "generate"
+  },
+  "search.more_results": {
+   "file": "search/more_results.mp3",
+   "spoken": "تمام، جاي أدورلك على نتائج ثانية.",
+   "source": "generate"
+  },
+  "search.no_more": {
+   "file": "search/no_more.mp3",
+   "spoken": "ماكو نتائج غيرها.",
+   "source": "generate"
+  },
+  "search.expired": {
+   "file": "search/expired.mp3",
+   "spoken": "انتهت نتائج البحث السابقة، خلّيني أبحث من جديد.",
+   "source": "generate"
+  },
+  "search.none_shown": {
+   "file": "search/none_shown.mp3",
+   "spoken": "ما عندي نتائج معروضة، كول شنو تدور.",
+   "source": "generate"
+  },
+  "search.not_in_list": {
+   "file": "search/not_in_list.mp3",
+   "spoken": "هذا المكان مو بالقائمة، كول رقمه.",
+   "source": "generate"
+  },
+  "search.connection_required": {
+   "file": "search/connection_required.mp3",
+   "spoken": "البحث عن هالمكان يحتاج إنترنت حالياً.",
+   "source": "generate"
+  },
+  "route.calculating": {
+   "file": "route/calculating.mp3",
+   "spoken": "جاي أحسب أفضل طريق إلك.",
+   "source": "generate"
+  },
+  "route.ready_one": {
+   "file": "route/ready_one.mp3",
+   "spoken": "لكيتلك طريق، جاهز ننطلق؟",
+   "source": "generate"
+  },
+  "route.ready_two": {
+   "file": "route/ready_two.mp3",
+   "spoken": "لكيتلك طريقين، أي واحد تختار؟",
+   "source": "generate"
+  },
+  "route.ready_three": {
+   "file": "route/ready_three.mp3",
+   "spoken": "لكيتلك ثلاثة طرق، أي واحد تختار؟",
+   "source": "generate"
+  },
+  "route.choose": {
+   "file": "route/choose.mp3",
+   "spoken": "اختار الطريق اللي يناسبك.",
+   "source": "generate"
+  },
+  "route.first_selected": {
+   "file": "route/first_selected.mp3",
+   "spoken": "تمام، اخترت الطريق الأول.",
+   "source": "generate"
+  },
+  "route.second_selected": {
+   "file": "route/second_selected.mp3",
+   "spoken": "تمام، اخترت الطريق الثاني.",
+   "source": "generate"
+  },
+  "route.third_selected": {
+   "file": "route/third_selected.mp3",
+   "spoken": "تمام، اخترت الطريق الثالث.",
+   "source": "generate"
+  },
+  "route.fastest_selected": {
+   "file": "route/fastest_selected.mp3",
+   "spoken": "تمام، اخترت أسرع طريق متوفر.",
+   "source": "generate"
+  },
+  "route.shortest_selected": {
+   "file": "route/shortest_selected.mp3",
+   "spoken": "تمام، اخترت أقصر طريق متوفر.",
+   "source": "generate"
+  },
+  "route.ready_to_start": {
+   "file": "route/ready_to_start.mp3",
+   "spoken": "الطريق جاهز، ننطلق؟",
+   "source": "generate"
+  },
+  "route.started": {
+   "file": "route/started.mp3",
+   "spoken": "تمام، انطلقنا.",
+   "source": "generate"
+  },
+  "route.alternative_search": {
+   "file": "route/alternative_search.mp3",
+   "spoken": "جاي أدورلك على طريق ثاني.",
+   "source": "generate"
+  },
+  "route.no_alternative": {
+   "file": "route/no_alternative.mp3",
+   "spoken": "ما لكيت طريق ثاني مناسب.",
+   "source": "generate"
+  },
+  "route.recalculating": {
+   "file": "route/recalculating.mp3",
+   "spoken": "جاي أعيد حساب المسار.",
+   "source": "generate"
+  },
+  "route.updated": {
+   "file": "route/updated.mp3",
+   "spoken": "تم تحديث المسار، تابع التعليمات الجديدة.",
+   "source": "generate"
+  },
+  "route.returning": {
+   "file": "route/returning.mp3",
+   "spoken": "هسه أرجعك لمسارك.",
+   "source": "generate"
+  },
+  "route.restored": {
+   "file": "route/restored.mp3",
+   "spoken": "رجعناك لمسارك الأصلي.",
+   "source": "generate"
+  },
+  "route.off_route": {
+   "file": "route/off_route.mp3",
+   "spoken": "طلعت من المسار، جاي أحسب طريق جديد.",
+   "source": "generate"
+  },
+  "route.stop_confirm": {
+   "file": "route/stop_confirm.mp3",
+   "spoken": "توقف الملاحة؟",
+   "source": "generate"
+  },
+  "route.stopped": {
+   "file": "route/stopped.mp3",
+   "spoken": "وقفت الملاحة.",
+   "source": "generate"
+  },
+  "route.not_started": {
+   "file": "route/not_started.mp3",
+   "spoken": "ما بيه ملاحة شغالة.",
+   "source": "generate"
+  },
+  "route.no_connection": {
+   "file": "route/no_connection.mp3",
+   "spoken": "ما كدرت أحسب طريق حالياً، تأكد من الاتصال.",
+   "source": "generate"
+  },
+  "route.shortest_already": {
+   "file": "route/shortest_already.mp3",
+   "spoken": "هذا أقصر طريق متوفر هسه.",
+   "source": "generate"
+  },
+  "route.fastest_already": {
+   "file": "route/fastest_already.mp3",
+   "spoken": "هذا أسرع طريق متوفر حسب سرعات الطرق.",
+   "source": "generate"
+  },
+  "route.shorter_found": {
+   "file": "route/shorter_found.mp3",
+   "spoken": "لكيت طريق أقصر وغيرته.",
+   "source": "generate"
+  },
+  "route.faster_found": {
+   "file": "route/faster_found.mp3",
+   "spoken": "تم العثور على طريق أسرع.",
+   "source": "generate"
+  },
+  "route.not_live_traffic": {
+   "file": "route/not_live_traffic.mp3",
+   "spoken": "التقدير حسب سرعات الطرق، مو زحام مباشر.",
+   "source": "generate"
+  },
+  "route.return_start": {
+   "file": "route/return_start.mp3",
+   "spoken": "تمام، راح نرجع لنقطة الانطلاق.",
+   "source": "generate"
+  },
+  "route.at_start": {
+   "file": "route/at_start.mp3",
+   "spoken": "إنت هسه بنقطة الانطلاق.",
+   "source": "generate"
+  },
+  "route.no_start": {
+   "file": "route/no_start.mp3",
+   "spoken": "ما عندي نقطة انطلاق محفوظة.",
+   "source": "generate"
+  },
+  "stop.finding": {
+   "file": "stop/finding.mp3",
+   "spoken": "جاي أدورلك على توقف قريب من مسارك.",
+   "source": "generate"
+  },
+  "stop.found": {
+   "file": "stop/found.mp3",
+   "spoken": "لكيتلك أماكن بطريقك، أي واحد تختار؟",
+   "source": "generate"
+  },
+  "stop.add_confirm": {
+   "file": "stop/add_confirm.mp3",
+   "spoken": "تحب أضيفها كتوقف بطريقك؟",
+   "source": "generate"
+  },
+  "stop.added": {
+   "file": "stop/added.mp3",
+   "spoken": "تمام، أضفت التوقف إلى رحلتك.",
+   "source": "generate"
+  },
+  "stop.redirecting": {
+   "file": "stop/redirecting.mp3",
+   "spoken": "راح أوجهك للتوقف أولاً.",
+   "source": "generate"
+  },
+  "stop.continue_original": {
+   "file": "stop/continue_original.mp3",
+   "spoken": "تمام، راح نرجع لوجهتك الأصلية.",
+   "source": "generate"
+  },
+  "stop.original_restored": {
+   "file": "stop/original_restored.mp3",
+   "spoken": "رجعنا للوجهة الأصلية.",
+   "source": "generate"
+  },
+  "stop.no_results": {
+   "file": "stop/no_results.mp3",
+   "spoken": "ما لكيت شي على طريقك.",
+   "source": "generate"
+  },
+  "stop.original_saved": {
+   "file": "stop/original_saved.mp3",
+   "spoken": "خليت وجهتك الأصلية محفوظة.",
+   "source": "generate"
+  },
+  "stop.arrived": {
+   "file": "stop/arrived.mp3",
+   "spoken": "وصلت للتوقف. لما تجهز كول: ارجع للوجهة الأصلية.",
+   "source": "generate"
+  },
+  "trip.next_turn": {
+   "file": "trip/next_turn.mp3",
+   "spoken": "الانعطاف الجاي،",
+   "source": "generate"
+  },
+  "trip.repeat": {
+   "file": "trip/repeat.mp3",
+   "spoken": "أعيدلك آخر توجيه.",
+   "source": "generate"
+  },
+  "trip.arriving": {
+   "file": "trip/arriving.mp3",
+   "spoken": "وجهتك صارت قريبة.",
+   "source": "generate"
+  },
+  "trip.bridge_unknown": {
+   "file": "trip/bridge_unknown.mp3",
+   "spoken": "ما عندي معلومة مؤكدة عن الجسر، اتبع السهم والإشارات.",
+   "source": "generate"
+  },
+  "trip.no_alert_near": {
+   "file": "trip/no_alert_near.mp3",
+   "spoken": "ما عندي تنبيه قريب على طريقك.",
+   "source": "generate"
+  },
+  "voice.muted": {
+   "file": "voice/muted.mp3",
+   "spoken": "صار.",
+   "source": "generate"
+  },
+  "voice.unmuted": {
+   "file": "voice/unmuted.mp3",
+   "spoken": "صار.",
+   "source": "generate"
+  },
+  "map.zoom_in": {
+   "file": "map/zoom_in.mp3",
+   "spoken": "تم.",
+   "source": "generate"
+  },
+  "map.zoom_out": {
+   "file": "map/zoom_out.mp3",
+   "spoken": "تم.",
+   "source": "generate"
+  },
+  "map.center": {
+   "file": "map/center.mp3",
+   "spoken": "تم.",
+   "source": "generate"
+  },
+  "report.confirm_bump": {
+   "file": "report/confirm_bump.mp3",
+   "spoken": "تريد أبلغ عن مطب بموقعك الحالي؟",
+   "source": "generate"
+  },
+  "report.confirm_pothole": {
+   "file": "report/confirm_pothole.mp3",
+   "spoken": "تريد أبلغ عن حفرة بموقعك الحالي؟",
+   "source": "generate"
+  },
+  "report.confirm_camera": {
+   "file": "report/confirm_camera.mp3",
+   "spoken": "تريد أبلغ عن كاميرا سرعة بهذا المكان؟",
+   "source": "generate"
+  },
+  "report.confirm_radar": {
+   "file": "report/confirm_radar.mp3",
+   "spoken": "تريد أبلغ عن رادار بهذا المكان؟",
+   "source": "generate"
+  },
+  "report.confirm_red_light": {
+   "file": "report/confirm_red_light.mp3",
+   "spoken": "تريد أبلغ عن كاميرا قطع إشارة بهذا المكان؟",
+   "source": "generate"
+  },
+  "report.confirm_accident": {
+   "file": "report/confirm_accident.mp3",
+   "spoken": "تريد أبلغ عن حادث بموقعك الحالي؟",
+   "source": "generate"
+  },
+  "report.confirm_closure": {
+   "file": "report/confirm_closure.mp3",
+   "spoken": "تريد أبلغ إن الطريق مغلق بموقعك الحالي؟",
+   "source": "generate"
+  },
+  "report.confirm_traffic": {
+   "file": "report/confirm_traffic.mp3",
+   "spoken": "تريد أبلغ عن زحمة بموقعك الحالي؟",
+   "source": "generate"
+  },
+  "report.confirm_signal": {
+   "file": "report/confirm_signal.mp3",
+   "spoken": "تريد أبلغ إن الإشارة المرورية ما تشتغل هنا؟",
+   "source": "generate"
+  },
+  "report.confirm_junction": {
+   "file": "report/confirm_junction.mp3",
+   "spoken": "تريد أبلغ عن تقاطع خطر بهذا المكان؟",
+   "source": "generate"
+  },
+  "report.confirm_checkpoint": {
+   "file": "report/confirm_checkpoint.mp3",
+   "spoken": "تريد أبلغ عن سيطرة بموقعك الحالي؟",
+   "source": "generate"
+  },
+  "report.confirm_roadwork": {
+   "file": "report/confirm_roadwork.mp3",
+   "spoken": "تريد أبلغ عن صيانة بموقعك الحالي؟",
+   "source": "generate"
+  },
+  "report.confirm_hazard": {
+   "file": "report/confirm_hazard.mp3",
+   "spoken": "تريد أبلغ عن خطر بالطريق بموقعك الحالي؟",
+   "source": "generate"
+  },
+  "report.yes_no": {
+   "file": "report/yes_no.mp3",
+   "spoken": "كول: إي، أو لا.",
+   "source": "generate"
+  },
+  "report.sent": {
+   "file": "report/sent.mp3",
+   "spoken": "تم إرسال البلاغ بنجاح.",
+   "source": "generate"
+  },
+  "report.thanks": {
+   "file": "report/thanks.mp3",
+   "spoken": "شكراً إلك، ساعدت باقي السائقين.",
+   "source": "generate"
+  },
+  "report.failed": {
+   "file": "report/failed.mp3",
+   "spoken": "تعذر إرسال البلاغ، حاول مرة ثانية.",
+   "source": "generate"
+  },
+  "report.local_only": {
+   "file": "report/local_only.mp3",
+   "spoken": "انحفظ البلاغ على جهازك بس، ما انرسل.",
+   "source": "generate"
+  },
+  "report.cancelled": {
+   "file": "report/cancelled.mp3",
+   "spoken": "تم إلغاء البلاغ.",
+   "source": "generate"
+  },
+  "report.location_weak": {
+   "file": "report/location_weak.mp3",
+   "spoken": "إشارة موقعك ضعيفة، ما أگدر أحدد مكان البلاغ بدقة.",
+   "source": "generate"
+  },
+  "report.already_exists": {
+   "file": "report/already_exists.mp3",
+   "spoken": "أكو بلاغ مشابه بهذا المكان.",
+   "source": "generate"
+  },
+  "report.vote_success": {
+   "file": "report/vote_success.mp3",
+   "spoken": "تم تسجيل ملاحظتك على البلاغ.",
+   "source": "generate"
+  },
+  "report.vote_failed": {
+   "file": "report/vote_failed.mp3",
+   "spoken": "ما كدرت أسجل ملاحظتك، حاول مرة ثانية.",
+   "source": "generate"
+  },
+  "report.cannot_delete": {
+   "file": "report/cannot_delete.mp3",
+   "spoken": "البلاغ بعد ما ينرسل ما ينحذف، ينتهي وحده بوقته.",
+   "source": "generate"
+  },
+  "report.no_pending": {
+   "file": "report/no_pending.mp3",
+   "spoken": "ما عندي بلاغ قريب منك.",
+   "source": "generate"
+  },
+  "report.dismiss_confirm": {
+   "file": "report/dismiss_confirm.mp3",
+   "spoken": "تريد تسجل إن هذا البلاغ مو موجود؟",
+   "source": "generate"
+  },
+  "alert.bump": {
+   "file": "alert/bump.mp3",
+   "spoken": "انتبه، مطب أمامك.",
+   "source": "generate"
+  },
+  "alert.pothole": {
+   "file": "alert/pothole.mp3",
+   "spoken": "دير بالك، حفرة بالطريق.",
+   "source": "generate"
+  },
+  "alert.camera": {
+   "file": "alert/camera.mp3",
+   "spoken": "انتبه، كاميرا سرعة أمامك.",
+   "source": "generate"
+  },
+  "alert.red_light_camera": {
+   "file": "alert/red_light_camera.mp3",
+   "spoken": "انتبه، كاميرا قطع إشارة أمامك.",
+   "source": "generate"
+  },
+  "alert.radar": {
+   "file": "alert/radar.mp3",
+   "spoken": "انتبه، رادار سرعة مبلغ عنه أمامك.",
+   "source": "generate"
+  },
+  "alert.signal": {
+   "file": "alert/signal.mp3",
+   "spoken": "انتبه، إشارة مرورية أمامك.",
+   "source": "generate"
+  },
+  "alert.signal_broken": {
+   "file": "alert/signal_broken.mp3",
+   "spoken": "انتبه، إشارة مرورية معطلة حسب آخر بلاغ.",
+   "source": "generate"
+  },
+  "alert.accident": {
+   "file": "alert/accident.mp3",
+   "spoken": "انتبه، حادث مروري أمامك.",
+   "source": "generate"
+  },
+  "alert.traffic": {
+   "file": "alert/traffic.mp3",
+   "spoken": "انتبه، ازدحام مروري أمامك.",
+   "source": "generate"
+  },
+  "alert.closure": {
+   "file": "alert/closure.mp3",
+   "spoken": "انتبه، الطريق مغلق أمامك.",
+   "source": "generate"
+  },
+  "alert.roadwork": {
+   "file": "alert/roadwork.mp3",
+   "spoken": "انتبه، صيانة بالطريق أمامك.",
+   "source": "generate"
+  },
+  "alert.dangerous_junction": {
+   "file": "alert/dangerous_junction.mp3",
+   "spoken": "انتبه، تقاطع خطر أمامك.",
+   "source": "generate"
+  },
+  "alert.checkpoint": {
+   "file": "alert/checkpoint.mp3",
+   "spoken": "انتبه، سيطرة أمامك.",
+   "source": "generate"
+  },
+  "alert.hazard": {
+   "file": "alert/hazard.mp3",
+   "spoken": "انتبه، خطر بالطريق أمامك.",
+   "source": "generate"
+  },
+  "alert.speed": {
+   "file": "alert/speed.mp3",
+   "spoken": "التزم بالسرعة المحددة للطريق.",
+   "source": "generate"
+  },
+  "alert.slow_down": {
+   "file": "alert/slow_down.mp3",
+   "spoken": "خفف السرعة بأمان.",
+   "source": "generate"
+  },
+  "alert.closures_unknown": {
+   "file": "alert/closures_unknown.mp3",
+   "spoken": "ما نكدر نتحقق من الإغلاقات هسه، انتبه لإشارات الطريق.",
+   "source": "generate"
+  },
+  "gps.searching": {
+   "file": "gps/searching.mp3",
+   "spoken": "جاي أحدد موقعك.",
+   "source": "generate"
+  },
+  "gps.weak": {
+   "file": "gps/weak.mp3",
+   "spoken": "إشارة الموقع ضعيفة، نكمل على آخر موقع معروف.",
+   "source": "generate"
+  },
+  "gps.lost": {
+   "file": "gps/lost.mp3",
+   "spoken": "فقدنا إشارة الموقع مؤقتاً.",
+   "source": "generate"
+  },
+  "gps.restored": {
+   "file": "gps/restored.mp3",
+   "spoken": "رجعت إشارة الموقع.",
+   "source": "generate"
+  },
+  "network.lost": {
+   "file": "network/lost.mp3",
+   "spoken": "انقطع الإنترنت.",
+   "source": "generate"
+  },
+  "network.restored": {
+   "file": "network/restored.mp3",
+   "spoken": "رجع الاتصال بالإنترنت.",
+   "source": "generate"
+  },
+  "offline.route_saved": {
+   "file": "offline/route_saved.mp3",
+   "spoken": "انقطع الإنترنت، راح نكمل على المسار المحفوظ.",
+   "source": "generate"
+  },
+  "offline.route_unavailable": {
+   "file": "offline/route_unavailable.mp3",
+   "spoken": "حساب طريق جديد بدون إنترنت مو متوفر حالياً.",
+   "source": "generate"
+  },
+  "offline.map_ready": {
+   "file": "offline/map_ready.mp3",
+   "spoken": "خريطة العراق جاهزة بدون إنترنت.",
+   "source": "generate"
+  },
+  "nav.turn_right": {
+   "file": "navigation/turn_right.mp3",
+   "spoken": "انعطف يمين.",
+   "source": "generate"
+  },
+  "nav.turn_left": {
+   "file": "navigation/turn_left.mp3",
+   "spoken": "انعطف يسار.",
+   "source": "generate"
+  },
+  "nav.turn_right_now": {
+   "file": "navigation/turn_right_now.mp3",
+   "spoken": "انعطف يمين هسه.",
+   "source": "generate"
+  },
+  "nav.turn_left_now": {
+   "file": "navigation/turn_left_now.mp3",
+   "spoken": "انعطف يسار هسه.",
+   "source": "generate"
+  },
+  "nav.then_right": {
+   "file": "navigation/then_right.mp3",
+   "spoken": "وبعدها مباشرة، انعطف يمين.",
+   "source": "generate"
+  },
+  "nav.then_left": {
+   "file": "navigation/then_left.mp3",
+   "spoken": "وبعدها مباشرة، انعطف يسار.",
+   "source": "generate"
+  },
+  "nav.end_road_right": {
+   "file": "navigation/end_road_right.mp3",
+   "spoken": "بنهاية الشارع، انعطف يمين.",
+   "source": "generate"
+  },
+  "nav.end_road_left": {
+   "file": "navigation/end_road_left.mp3",
+   "spoken": "بنهاية الشارع، انعطف يسار.",
+   "source": "generate"
+  },
+  "nav.straight": {
+   "file": "navigation/straight.mp3",
+   "spoken": "استمر بشكل مستقيم.",
+   "source": "generate"
+  },
+  "nav.continue_same": {
+   "file": "navigation/continue_same.mp3",
+   "spoken": "واصل على نفس الطريق.",
+   "source": "generate"
+  },
+  "nav.keep_right": {
+   "file": "navigation/keep_right.mp3",
+   "spoken": "خليك على اليمين.",
+   "source": "generate"
+  },
+  "nav.keep_left": {
+   "file": "navigation/keep_left.mp3",
+   "spoken": "خليك على اليسار.",
+   "source": "generate"
+  },
+  "nav.exit_right": {
+   "file": "navigation/exit_right.mp3",
+   "spoken": "خذ المخرج على اليمين.",
+   "source": "generate"
+  },
+  "nav.exit_left": {
+   "file": "navigation/exit_left.mp3",
+   "spoken": "خذ المخرج على اليسار.",
+   "source": "generate"
+  },
+  "nav.highway_enter": {
+   "file": "navigation/highway_enter.mp3",
+   "spoken": "ادخل الطريق السريع.",
+   "source": "generate"
+  },
+  "nav.highway_exit_next": {
+   "file": "navigation/highway_exit_next.mp3",
+   "spoken": "اطلع من الطريق السريع عند المخرج القادم.",
+   "source": "generate"
+  },
+  "nav.fork_ahead": {
+   "file": "navigation/fork_ahead.mp3",
+   "spoken": "انتبه، تفرع بالطريق أمامك.",
+   "source": "generate"
+  },
+  "nav.bridge_up": {
+   "file": "navigation/bridge_up.mp3",
+   "spoken": "اصعد الجسر.",
+   "source": "generate"
+  },
+  "nav.roundabout_enter": {
+   "file": "navigation/roundabout_enter.mp3",
+   "spoken": "ادخل الدوار.",
+   "source": "generate"
+  },
+  "nav.roundabout_exit_1": {
+   "file": "navigation/roundabout_exit_1.mp3",
+   "spoken": "بالدوار، خذ المخرج الأول.",
+   "source": "generate"
+  },
+  "nav.roundabout_exit_2": {
+   "file": "navigation/roundabout_exit_2.mp3",
+   "spoken": "بالدوار، خذ المخرج الثاني.",
+   "source": "generate"
+  },
+  "nav.roundabout_exit_3": {
+   "file": "navigation/roundabout_exit_3.mp3",
+   "spoken": "بالدوار، خذ المخرج الثالث.",
+   "source": "generate"
+  },
+  "nav.roundabout_exit_4": {
+   "file": "navigation/roundabout_exit_4.mp3",
+   "spoken": "بالدوار، خذ المخرج الرابع.",
+   "source": "generate"
+  },
+  "nav.roundabout_exit_5": {
+   "file": "navigation/roundabout_exit_5.mp3",
+   "spoken": "بالدوار، خذ المخرج الخامس.",
+   "source": "generate"
+  },
+  "nav.uturn": {
+   "file": "navigation/uturn.mp3",
+   "spoken": "سوّي يوتيرن من المكان المسموح.",
+   "source": "generate"
+  },
+  "nav.dest_right": {
+   "file": "navigation/dest_right.mp3",
+   "spoken": "وجهتك راح تكون على اليمين.",
+   "source": "generate"
+  },
+  "nav.dest_left": {
+   "file": "navigation/dest_left.mp3",
+   "spoken": "وجهتك راح تكون على اليسار.",
+   "source": "generate"
+  },
+  "nav.arrived": {
+   "file": "navigation/arrived.mp3",
+   "spoken": "وصلت إلى وجهتك.",
+   "source": "generate"
+  },
+  "nav.safe_arrival": {
+   "file": "navigation/safe_arrival.mp3",
+   "spoken": "الحمد لله على السلامة.",
+   "source": "generate"
+  },
+  "nav.dist_50": {
+   "file": "navigation/dist_50.mp3",
+   "spoken": "بعد خمسين متر،",
+   "source": "generate"
+  },
+  "nav.dist_100": {
+   "file": "navigation/dist_100.mp3",
+   "spoken": "بعد مية متر،",
+   "source": "generate"
+  },
+  "nav.dist_150": {
+   "file": "navigation/dist_150.mp3",
+   "spoken": "بعد مية وخمسين متر،",
+   "source": "generate"
+  },
+  "nav.dist_200": {
+   "file": "navigation/dist_200.mp3",
+   "spoken": "بعد ميتين متر،",
+   "source": "generate"
+  },
+  "nav.dist_250": {
+   "file": "navigation/dist_250.mp3",
+   "spoken": "بعد ميتين وخمسين متر،",
+   "source": "generate"
+  },
+  "nav.dist_300": {
+   "file": "navigation/dist_300.mp3",
+   "spoken": "بعد ثلاث مية متر،",
+   "source": "generate"
+  },
+  "nav.dist_400": {
+   "file": "navigation/dist_400.mp3",
+   "spoken": "بعد أربع مية متر،",
+   "source": "generate"
+  },
+  "nav.dist_500": {
+   "file": "navigation/dist_500.mp3",
+   "spoken": "بعد خمس مية متر،",
+   "source": "generate"
+  },
+  "nav.dist_600": {
+   "file": "navigation/dist_600.mp3",
+   "spoken": "بعد ست مية متر،",
+   "source": "generate"
+  },
+  "nav.dist_700": {
+   "file": "navigation/dist_700.mp3",
+   "spoken": "بعد سبع مية متر،",
+   "source": "generate"
+  },
+  "nav.dist_800": {
+   "file": "navigation/dist_800.mp3",
+   "spoken": "بعد ثمن مية متر،",
+   "source": "generate"
+  },
+  "nav.dist_900": {
+   "file": "navigation/dist_900.mp3",
+   "spoken": "بعد تسع مية متر،",
+   "source": "generate"
+  },
+  "nav.dist_1000": {
+   "file": "navigation/dist_1000.mp3",
+   "spoken": "بعد كيلو،",
+   "source": "generate"
+  },
+  "nav.dist_1500": {
+   "file": "navigation/dist_1500.mp3",
+   "spoken": "بعد كيلو ونص،",
+   "source": "generate"
+  },
+  "nav.dist_2000": {
+   "file": "navigation/dist_2000.mp3",
+   "spoken": "بعد كيلوين،",
+   "source": "generate"
+  },
+  "nav.dist_3000": {
+   "file": "navigation/dist_3000.mp3",
+   "spoken": "بعد ثلاث كيلوات،",
+   "source": "generate"
+  },
+  "nav.dist_4000": {
+   "file": "navigation/dist_4000.mp3",
+   "spoken": "بعد أربع كيلوات،",
+   "source": "generate"
+  },
+  "nav.dist_5000": {
+   "file": "navigation/dist_5000.mp3",
+   "spoken": "بعد خمس كيلوات،",
+   "source": "generate"
+  },
+  "nav.dist_6000": {
+   "file": "navigation/dist_6000.mp3",
+   "spoken": "بعد ست كيلوات،",
+   "source": "generate"
+  },
+  "nav.dist_7000": {
+   "file": "navigation/dist_7000.mp3",
+   "spoken": "بعد سبع كيلوات،",
+   "source": "generate"
+  },
+  "nav.dist_8000": {
+   "file": "navigation/dist_8000.mp3",
+   "spoken": "بعد ثمن كيلوات،",
+   "source": "generate"
+  },
+  "nav.dist_9000": {
+   "file": "navigation/dist_9000.mp3",
+   "spoken": "بعد تسع كيلوات،",
+   "source": "generate"
+  },
+  "nav.dist_10000": {
+   "file": "navigation/dist_10000.mp3",
+   "spoken": "بعد عشر كيلوات،",
+   "source": "generate"
+  },
+  "nav.dist_15000": {
+   "file": "navigation/dist_15000.mp3",
+   "spoken": "بعد خمستعش كيلو،",
+   "source": "generate"
+  },
+  "nav.dist_20000": {
+   "file": "navigation/dist_20000.mp3",
+   "spoken": "بعد عشرين كيلو،",
+   "source": "generate"
+  },
+  "nav.dist_25000": {
+   "file": "navigation/dist_25000.mp3",
+   "spoken": "بعد خمسة وعشرين كيلو،",
+   "source": "generate"
+  },
+  "nav.dist_30000": {
+   "file": "navigation/dist_30000.mp3",
+   "spoken": "بعد ثلاثين كيلو،",
+   "source": "generate"
+  },
+  "nav.dist_40000": {
+   "file": "navigation/dist_40000.mp3",
+   "spoken": "بعد أربعين كيلو،",
+   "source": "generate"
+  },
+  "nav.dist_50000": {
+   "file": "navigation/dist_50000.mp3",
+   "spoken": "بعد خمسين كيلو،",
+   "source": "generate"
+  },
+  "num.eta_min_1": {
+   "file": "numbers/eta_min_1.mp3",
+   "spoken": "باقي دقيقة وحدة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_2": {
+   "file": "numbers/eta_min_2.mp3",
+   "spoken": "باقي دقيقتين حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_3": {
+   "file": "numbers/eta_min_3.mp3",
+   "spoken": "باقي ثلاث دقايق حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_4": {
+   "file": "numbers/eta_min_4.mp3",
+   "spoken": "باقي أربع دقايق حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_5": {
+   "file": "numbers/eta_min_5.mp3",
+   "spoken": "باقي خمس دقايق حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_6": {
+   "file": "numbers/eta_min_6.mp3",
+   "spoken": "باقي ست دقايق حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_7": {
+   "file": "numbers/eta_min_7.mp3",
+   "spoken": "باقي سبع دقايق حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_8": {
+   "file": "numbers/eta_min_8.mp3",
+   "spoken": "باقي ثمن دقايق حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_9": {
+   "file": "numbers/eta_min_9.mp3",
+   "spoken": "باقي تسع دقايق حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_10": {
+   "file": "numbers/eta_min_10.mp3",
+   "spoken": "باقي عشر دقايق حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_11": {
+   "file": "numbers/eta_min_11.mp3",
+   "spoken": "باقي إحدعش دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_12": {
+   "file": "numbers/eta_min_12.mp3",
+   "spoken": "باقي اثنعش دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_13": {
+   "file": "numbers/eta_min_13.mp3",
+   "spoken": "باقي ثلطعش دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_14": {
+   "file": "numbers/eta_min_14.mp3",
+   "spoken": "باقي أربعطعش دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_15": {
+   "file": "numbers/eta_min_15.mp3",
+   "spoken": "باقي خمستعش دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_16": {
+   "file": "numbers/eta_min_16.mp3",
+   "spoken": "باقي ستعش دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_17": {
+   "file": "numbers/eta_min_17.mp3",
+   "spoken": "باقي سبعطعش دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_18": {
+   "file": "numbers/eta_min_18.mp3",
+   "spoken": "باقي ثمنطعش دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_19": {
+   "file": "numbers/eta_min_19.mp3",
+   "spoken": "باقي تسعطعش دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_20": {
+   "file": "numbers/eta_min_20.mp3",
+   "spoken": "باقي عشرين دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_25": {
+   "file": "numbers/eta_min_25.mp3",
+   "spoken": "باقي خمسة وعشرين دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_30": {
+   "file": "numbers/eta_min_30.mp3",
+   "spoken": "باقي ثلاثين دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_35": {
+   "file": "numbers/eta_min_35.mp3",
+   "spoken": "باقي خمسة وثلاثين دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_40": {
+   "file": "numbers/eta_min_40.mp3",
+   "spoken": "باقي أربعين دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_45": {
+   "file": "numbers/eta_min_45.mp3",
+   "spoken": "باقي خمسة وأربعين دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_50": {
+   "file": "numbers/eta_min_50.mp3",
+   "spoken": "باقي خمسين دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_min_55": {
+   "file": "numbers/eta_min_55.mp3",
+   "spoken": "باقي خمسة وخمسين دقيقة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_2": {
+   "file": "numbers/eta_h_2.mp3",
+   "spoken": "باقي تقريباً ساعة حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_3": {
+   "file": "numbers/eta_h_3.mp3",
+   "spoken": "باقي تقريباً ساعة ونص حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_4": {
+   "file": "numbers/eta_h_4.mp3",
+   "spoken": "باقي تقريباً ساعتين حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_5": {
+   "file": "numbers/eta_h_5.mp3",
+   "spoken": "باقي تقريباً ساعتين ونص حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_6": {
+   "file": "numbers/eta_h_6.mp3",
+   "spoken": "باقي تقريباً ثلاث ساعات حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_7": {
+   "file": "numbers/eta_h_7.mp3",
+   "spoken": "باقي تقريباً ثلاث ساعات ونص حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_8": {
+   "file": "numbers/eta_h_8.mp3",
+   "spoken": "باقي تقريباً أربع ساعات حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_10": {
+   "file": "numbers/eta_h_10.mp3",
+   "spoken": "باقي تقريباً خمس ساعات حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_12": {
+   "file": "numbers/eta_h_12.mp3",
+   "spoken": "باقي تقريباً ست ساعات حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_14": {
+   "file": "numbers/eta_h_14.mp3",
+   "spoken": "باقي تقريباً سبع ساعات حتى توصل.",
+   "source": "generate"
+  },
+  "num.eta_h_16": {
+   "file": "numbers/eta_h_16.mp3",
+   "spoken": "باقي تقريباً ثمن ساعات حتى توصل.",
+   "source": "generate"
+  },
+  "num.left_100": {
+   "file": "numbers/left_100.mp3",
+   "spoken": "باقي على وجهتك تقريباً مية متر.",
+   "source": "generate"
+  },
+  "num.left_200": {
+   "file": "numbers/left_200.mp3",
+   "spoken": "باقي على وجهتك تقريباً ميتين متر.",
+   "source": "generate"
+  },
+  "num.left_300": {
+   "file": "numbers/left_300.mp3",
+   "spoken": "باقي على وجهتك تقريباً ثلاث مية متر.",
+   "source": "generate"
+  },
+  "num.left_500": {
+   "file": "numbers/left_500.mp3",
+   "spoken": "باقي على وجهتك تقريباً خمس مية متر.",
+   "source": "generate"
+  },
+  "num.left_700": {
+   "file": "numbers/left_700.mp3",
+   "spoken": "باقي على وجهتك تقريباً سبع مية متر.",
+   "source": "generate"
+  },
+  "num.left_1000": {
+   "file": "numbers/left_1000.mp3",
+   "spoken": "باقي على وجهتك تقريباً كيلو.",
+   "source": "generate"
+  },
+  "num.left_1500": {
+   "file": "numbers/left_1500.mp3",
+   "spoken": "باقي على وجهتك تقريباً كيلو ونص.",
+   "source": "generate"
+  },
+  "num.left_2000": {
+   "file": "numbers/left_2000.mp3",
+   "spoken": "باقي على وجهتك تقريباً كيلوين.",
+   "source": "generate"
+  },
+  "num.left_3000": {
+   "file": "numbers/left_3000.mp3",
+   "spoken": "باقي على وجهتك تقريباً ثلاث كيلوات.",
+   "source": "generate"
+  },
+  "num.left_4000": {
+   "file": "numbers/left_4000.mp3",
+   "spoken": "باقي على وجهتك تقريباً أربع كيلوات.",
+   "source": "generate"
+  },
+  "num.left_5000": {
+   "file": "numbers/left_5000.mp3",
+   "spoken": "باقي على وجهتك تقريباً خمس كيلوات.",
+   "source": "generate"
+  },
+  "num.left_7000": {
+   "file": "numbers/left_7000.mp3",
+   "spoken": "باقي على وجهتك تقريباً سبع كيلوات.",
+   "source": "generate"
+  },
+  "num.left_10000": {
+   "file": "numbers/left_10000.mp3",
+   "spoken": "باقي على وجهتك تقريباً عشر كيلوات.",
+   "source": "generate"
+  },
+  "num.left_15000": {
+   "file": "numbers/left_15000.mp3",
+   "spoken": "باقي على وجهتك تقريباً خمستعش كيلو.",
+   "source": "generate"
+  },
+  "num.left_20000": {
+   "file": "numbers/left_20000.mp3",
+   "spoken": "باقي على وجهتك تقريباً عشرين كيلو.",
+   "source": "generate"
+  },
+  "num.left_30000": {
+   "file": "numbers/left_30000.mp3",
+   "spoken": "باقي على وجهتك تقريباً ثلاثين كيلو.",
+   "source": "generate"
+  },
+  "num.left_50000": {
+   "file": "numbers/left_50000.mp3",
+   "spoken": "باقي على وجهتك تقريباً خمسين كيلو.",
+   "source": "generate"
+  },
+  "num.left_75000": {
+   "file": "numbers/left_75000.mp3",
+   "spoken": "باقي على وجهتك تقريباً خمسة وسبعين كيلو.",
+   "source": "generate"
+  },
+  "num.left_100000": {
+   "file": "numbers/left_100000.mp3",
+   "spoken": "باقي على وجهتك تقريباً مية كيلو.",
+   "source": "generate"
+  },
+  "num.left_150000": {
+   "file": "numbers/left_150000.mp3",
+   "spoken": "باقي على وجهتك تقريباً مية وخمسين كيلو.",
+   "source": "generate"
+  },
+  "num.left_200000": {
+   "file": "numbers/left_200000.mp3",
+   "spoken": "باقي على وجهتك تقريباً ميتين كيلو.",
+   "source": "generate"
+  },
+  "num.left_300000": {
+   "file": "numbers/left_300000.mp3",
+   "spoken": "باقي على وجهتك تقريباً ثلاث مية كيلو.",
+   "source": "generate"
+  },
+  "agent.greet_new": {
+   "file": "agent/greet_new.mp3",
+   "spoken": "هلا بيك، وين نروح اليوم؟",
+   "source": "generate"
+  },
+  "agent.greet_trip": {
+   "file": "agent/greet_trip.mp3",
+   "spoken": "تفضل.",
+   "source": "generate"
+  },
+  "agent.many": {
+   "file": "agent/many.mp3",
+   "spoken": "لكيت أكثر من نتيجة، أي وحدة؟",
+   "source": "generate"
+  },
+  "agent.one": {
+   "file": "agent/one.mp3",
+   "spoken": "لكيت وحدة، أعتمدها؟",
+   "source": "generate"
+  },
+  "agent.repeat": {
+   "file": "agent/repeat.mp3",
+   "spoken": "تعيدها؟",
+   "source": "generate"
+  },
+  "agent.failed": {
+   "file": "agent/failed.mp3",
+   "spoken": "ما ضبط.",
+   "source": "generate"
+  },
+  "agent.alternative": {
+   "file": "agent/alternative.mp3",
+   "spoken": "أدورلك بديل.",
+   "source": "generate"
+  },
+  "agent.partial": {
+   "file": "agent/partial.mp3",
+   "spoken": "تم، بس جزء ما ضبط.",
+   "source": "generate"
+  },
+  "agent.no_location": {
+   "file": "agent/no_location.mp3",
+   "spoken": "ما عندي موقعك هسه.",
+   "source": "generate"
+  },
+  "agent.no_trip": {
+   "file": "agent/no_trip.mp3",
+   "spoken": "ماكو رحلة هسه.",
+   "source": "generate"
+  },
+  "agent.no_list": {
+   "file": "agent/no_list.mp3",
+   "spoken": "ماكو قائمة هسه، شنو تدور؟",
+   "source": "generate"
+  },
+  "agent.expired": {
+   "file": "agent/expired.mp3",
+   "spoken": "القائمة قديمة، أدورلك من جديد؟",
+   "source": "generate"
+  },
+  "agent.no_more": {
+   "file": "agent/no_more.mp3",
+   "spoken": "ماكو غيرها.",
+   "source": "generate"
+  },
+  "agent.not_in_list": {
+   "file": "agent/not_in_list.mp3",
+   "spoken": "هذا مو بالقائمة.",
+   "source": "generate"
+  },
+  "agent.place_type": {
+   "file": "agent/place_type.mp3",
+   "spoken": "شنو نوع المكان؟",
+   "source": "generate"
+  },
+  "agent.confirm_share": {
+   "file": "agent/confirm_share.mp3",
+   "spoken": "أشارك موقعك؟",
+   "source": "generate"
+  },
+  "agent.confirm_report": {
+   "file": "agent/confirm_report.mp3",
+   "spoken": "أسجل البلاغ؟",
+   "source": "generate"
+  },
+  "agent.cancelled": {
+   "file": "agent/cancelled.mp3",
+   "spoken": "تمام، ما سويت شي.",
+   "source": "generate"
+  },
+  "agent.no_home": {
+   "file": "agent/no_home.mp3",
+   "spoken": "البيت مو محفوظ عندي.",
+   "source": "generate"
+  },
+  "agent.no_work": {
+   "file": "agent/no_work.mp3",
+   "spoken": "الدوام مو محفوظ عندي.",
+   "source": "generate"
+  },
+  "agent.no_route_info": {
+   "file": "agent/no_route_info.mp3",
+   "spoken": "ما عندي هالمعلومة هسه.",
+   "source": "generate"
+  },
+  "agent.offline_search": {
+   "file": "agent/offline_search.mp3",
+   "spoken": "ماكو نت، أدور بالخرائط المحفوظة.",
+   "source": "generate"
+  }
+ }
+}
